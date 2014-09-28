@@ -36,6 +36,9 @@
     <ClInclude Include="RefBase.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="FileSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +48,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="DataSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSource.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

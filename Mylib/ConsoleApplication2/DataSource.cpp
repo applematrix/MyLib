@@ -7,6 +7,11 @@ DataSource::DataSource()
 	printf("DataSource Constructor!\n");
 }
 
+DataSource::DataSource(const char* url)
+{
+	printf("DataSource Constructor with url!\n");
+}
+
 DataSource::~DataSource()
 {
 	printf("DataSource Destructor!\n");
