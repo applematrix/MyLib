@@ -2,6 +2,8 @@
 
 #include "DataSource.h"
 
+namespace hdz{
+
 class FileSource :public DataSource
 {
 public:
@@ -15,3 +17,4 @@ private:
 	FILE* m_pFile;
 	uint64 m_fileSize;
 };
+};//end namespace

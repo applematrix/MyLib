@@ -4,7 +4,9 @@
 #include "stdafx.h"
 #include "DataSource.h"
 #include "FileSource.h"
+#include "Vector.h"
 
+using namespace hdz;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
